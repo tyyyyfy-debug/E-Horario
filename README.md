@@ -1,9 +1,8 @@
-HORAS DANIEL — PACOTE GITHUB MOBILE CORRIGIDO
+E-horario — pacote GitHub Mobile V2
 
-Na raiz do repositório GitHub coloque apenas:
+No GitHub colocar na raiz apenas:
 - codemagic.yaml
 - project.zip
+- README.md (opcional)
 
-O projeto Android está dentro de project.zip.
-
-A correção desta versão resolve o erro Java de variáveis locais usadas dentro de lambda (MainActivity.java) e configura a impressão A4 horizontal.
+Esta versão usa a localidade como cidade/zona geográfica. Para a Confraria Nazaré (26-0149 / 26-0273), a localidade fica como Nazaré; "AVAC Piso 2" permanece na descrição.
