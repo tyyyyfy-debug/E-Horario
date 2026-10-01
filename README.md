@@ -1,8 +1,7 @@
-E-horario — pacote GitHub Mobile V2
+E-horario V6 — GitHub Mobile
 
-No GitHub colocar na raiz apenas:
+Na raiz do repositório GitHub colocar apenas:
 - codemagic.yaml
 - project.zip
-- README.md (opcional)
 
-Esta versão usa a localidade como cidade/zona geográfica. Para a Confraria Nazaré (26-0149 / 26-0273), a localidade fica como Nazaré; "AVAC Piso 2" permanece na descrição.
+Correção do planeamento Semana 40: 2ª/3ª/4ª = Confraria Nazaré (26-0149 / 26-0273); 5ª = 26-0375; 6ª = 26-0371.
