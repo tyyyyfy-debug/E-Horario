@@ -1,8 +1,7 @@
-# E-horario — correção do leitor de planeamentos
+# E-horario V9
 
-Esta versão altera a deteção das cinco colunas: em vez de cortar a página em cinco partes iguais, calcula os limites a partir das posições reais dos códigos de obra no PDF. Isto evita que nomes/equipas que ficam perto da margem entre dias sejam atribuídos à coluna seguinte.
+Versão 1.0.8. Corrige a associação colaborador/obra usando a distância vertical entre a linha do colaborador e os blocos de códigos, sempre dentro da coluna do dia. Se não houver bloco suficientemente próximo, não inventa uma obra.
 
-## Carregar pelo GitHub no telemóvel
-Coloca `codemagic.yaml` e `project.zip` na raiz do repositório. Depois inicia um novo build no Codemagic.
+Para GitHub mobile, coloca na raiz do repositório: `codemagic.yaml` e `project.zip`. Depois inicia o workflow no Codemagic.
 
-A compilação ainda tem de ser validada pelo Codemagic; este pacote não é um APK já compilado.
+O APK ainda precisa de ser compilado pelo Codemagic.
