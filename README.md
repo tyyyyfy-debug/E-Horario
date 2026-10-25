@@ -1,7 +1,9 @@
-# E-horario V9
+# E-horario — pacote para GitHub mobile
 
-Versão 1.0.8. Corrige a associação colaborador/obra usando a distância vertical entre a linha do colaborador e os blocos de códigos, sempre dentro da coluna do dia. Se não houver bloco suficientemente próximo, não inventa uma obra.
+1. Na raiz do repositório, colocar `codemagic.yaml` e `project.zip`.
+2. No Codemagic, ligar o repositório e iniciar o workflow.
+3. O APK de teste, se a compilação terminar com sucesso, aparece nos artefactos.
 
-Para GitHub mobile, coloca na raiz do repositório: `codemagic.yaml` e `project.zip`. Depois inicia o workflow no Codemagic.
-
-O APK ainda precisa de ser compilado pelo Codemagic.
+O workflow não fixa o tipo de máquina, para evitar o erro de plano de faturação por tipo de instância.
+O leitor usa as cinco colunas fixas do modelo de planeamento em vez de inferir colunas a partir da posição dos números de obra.
+A leitura ainda deve ser conferida com os PDFs reais antes de usar os dados para registos oficiais.
